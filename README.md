@@ -221,6 +221,7 @@ EXEC sys.sp_rename
     @newname = 'OwnerState', 
     @objtype = 'COLUMN'
 ```
+![](Query6.jpg)
 ****
 
 ### Conclusion
