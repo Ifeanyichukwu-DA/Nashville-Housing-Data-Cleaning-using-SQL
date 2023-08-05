@@ -174,7 +174,7 @@ SELECT
 					ORDER BY UniqueID) AS row_numb
 FROM [dbo].[Nashville_Data]
 )
-SELECT * FROM cte_rownum
+DELETE * FROM cte_rownum
 WHERE row_numb > 1
 ```
 ***
